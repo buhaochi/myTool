@@ -2,14 +2,7 @@
    "background": {
       "scripts": [ "js/background.js" ]
    },
-
-     "content_scripts": [
-    {
-   	 "matches": ["https://stackoverflow.com/*"],
-   	 "js": ["js/jquery.js", "js/content.js"]
-    }
-  ],
-   "description": "cdnchange",
+   "description": "stackoverflow访问帮助",
    "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2h8Ty6urNxSzgo0nVfuFqTsZJxd9oapVeeYGMOmi8TYFZoOtE0knI7k/1ZRSEiKySR3V5SypBy/TB2wd9U5zf6HwVxyJRFVGLmNHJhKsCsz/N6wrfh+6h75YzjnJrUCX8b5k66Myw3iuS/UDZraTaA4c8TxG0+4xQOx3rtn1DZBjNPj6HWYc9z+6wVyWFdB0AS0beqqBugMvQ17HzWWYyDTfhwXHOBI3tIQ4bz5priXkFivDbTFBZg/b/bEJ2LSt+cY0AqvAlQXUFtLeGlLG2YZHHhx9I9RZiLcc17ryvhhMOmxe7MqK8KodXP8olX4yB/xexU2zB1qe0JLG+Qe8cQIDAQAB",
    "manifest_version": 2,
    "name": "cdn",
